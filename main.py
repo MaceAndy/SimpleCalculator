@@ -8,7 +8,7 @@ def mnozenie(a, b):
     return  a * b
 
 def dzielenie(a, b):
-    if a == 0:
+    if b == 0:
         raise print("NIgdy cholero nie dziel przez zero.")
     return a / b
 
